@@ -13,7 +13,7 @@ except Exception as e:
 
 @app.route("/")
 def index():
-    return "Welcome to the Flask ML App  Ashishh-2🎉"
+    return "Welcome to the Flask ML App from Ashish multicloud Engineer with DevOPs🎉"
 
 @app.route("/predict", methods=["GET"])
 def predict():
